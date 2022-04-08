@@ -1,0 +1,70 @@
+body, html {
+  text-align: center;
+  font-family: Gotham, Helvetica, Arial, sans-serif;
+  font-size: 1em;
+}
+
+section {
+  width: 50%;
+  margin: auto;
+}
+/* Changed font colors for mobile display. */
+h1 {
+  font-size: 2em;
+  color:  #7b7d70;
+}
+
+h2 {
+  font-size: 1.5em;
+  color: #4eafb8;
+}
+
+p {
+  color: #ff8641;
+}
+
+/***** Tablet *****/
+
+@media (min-width: 768px) {
+ /* Kept the same format. */
+  body, html {
+    text-align: center;
+    font-family: Gotham, Helvetica, Arial, sans-serif;
+    font-size: 1em;
+  }
+  
+  section {
+    width: 50%;
+    margin: auto;
+  }
+  /* Changed font colours for tablet */
+  h1 { color: #02cbd2;
+  }
+  h2 { color: #fcc02a;
+  }
+  p { color: #7b8f8e;
+  }
+}
+
+/***** Desktop *****/
+
+@media (min-width: 1200px) {
+
+  body, html {
+    text-align: center;
+    font-family: Gotham, Helvetica, Arial, sans-serif;
+    font-size: 1em;
+  }
+  
+  section {
+    width: 50%;
+    margin: auto;
+  }
+  /* Changed font colours for desktop. */
+  h1 { color: #6e4b61;
+  }
+  h2 { color: #cabd61 ;
+  }
+  p { color:  #c19e74;
+  }
+}
